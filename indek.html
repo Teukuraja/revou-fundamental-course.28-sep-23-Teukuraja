@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Grocery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+    <!-- Header Navigation -->
+    <header class="navigation">
+        <div class="page-title" >E-Grocery   </div><span class="efek-ngetik"></span>
+        <!-- Navigasi menu -->
+        <div class="nav">
+            <a href="#index.html" class="nav-item">Home</a>
+            <a href="#mySlides fade" class="nav-item">Our Package</a>
+            <a href="#Contact-Us" class="nav-item">Call Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Content Title Section -->
+        <div id="title" class="content-title">
+            <div>
+                <h1>Top Rated E-Groceries Shop In Indonesia</h1>
+            </div>
+            <div>
+                <p>Everyday with the best ingredients</p>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <div id="content" class="content">
+            <!-- Content Left Section -->
+            <div id="content-left" class="content-left">
+                <div id="content-image" class="content-image">
+                    <!-- Slideshow Container -->
+                    <div class="slideshow-container">
+                        <!-- Gambar pertama -->
+                        <div class="mySlides fade">
+                            <img src="asset/gambar-buah-1.jpg" alt="Slider Image 1" class="image">
+                            <i class="centered-text">"Setiap Hari Beli Sayur buah fresh disini"</i>
+                        </div>
+
+                        <!-- Gambar kedua -->
+                        <div class="mySlides fade">
+                            <img src="asset/gambar-buah-2.jpg" alt="Slider Image 2" class="image">
+                            <i class="centered-text">"Setiap Hari Beli Sayur buah fresh disini"</i>
+                        </div>
+
+                        <!-- Gambar ketiga -->
+                        <div class="mySlides fade">
+                            <img src="asset/gambar-buah-3.jpg" alt="Slider Image 3" class="image">
+                            <i class="centered-text">"Setiap Hari Beli Sayur buah fresh disini"</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Right Section -->
+            <div id="content-right" class="content-right">
+                <form name="contact-form" class="content-form">
+                    <div class="contact-us">
+                        <h2>Contact Us</h2>
+                        <span>sales akan menghubungi anda 1x24 jam setelah data kami terima</span>
+                    </div>
+
+                    <label for="your-name">Your Name:</label>
+                    <input id="your-name" type="text" name="your-name" placeholder="First and Last Name">
+
+                    <label for="email">Email Address:</label>
+                    <input id="email" type="email" name="email" placeholder="example@gmail.com">
+
+                    <label for="interest">What are you interested in?</label>
+                    <select id="interest" name="interest">
+                        <option>Football</option>
+                        <option>Fishing</option>
+                        <option>Badminton</option>
+                    </select>
+
+                    <!-- Menambahkan elemen div untuk menampilkan pesan kesalahan -->
+                    <div id="error-message" class="error-message"></div>
+                    
+                    <!-- Mengganti <div> dengan <button> untuk tombol submit -->
+                    <button id="button" type="submit" class="button">SEND</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Profile Section -->
+    <div class="profil">
+        <div class="lingkaran">
+            <div id="gambar" class="gambar-1">                   
+                <img src="asset/gambar.jpeg" alt="Deskripsi Gambar">
+            </div>
+        </div>
+        <div class="text-box">
+            <h3>Florence Hughes</h3>
+            <i>Ibu Rumah Tangga, 28</i>
+        </div>
+    </div>
+
+    <div class="garis-pendek"></div>
+    <br>
+    <br>
+    <h2>
+        Use this space to provide users with more information about your offer.
+        Consider it a follow-up to your headline and explain the benefits of your service or product
+    </h2>
+    <br>
+    <ol class="custom-list">
+        <!-- Merapikan dan menambahkan teks pada list kedua -->
+        <li class="gray-background">
+            <span>Your first feature, written in the form of a benefit statement.</span>
+        </li>
+        <br>
+        <!-- Menambahkan teks pada list kedua -->
+        <li class="gray-background">
+            <span>Your second feature, providing exceptional value for you.</span>
+        </li>
+        <br>
+        <br>
+        <li class="gray-background">
+            <span>Your third feature, written in the form of a benefit statement.</span>
+        </li>
+    </ol>
+
+    <!-- Footer Section -->
+    <footer></footer>
+    <script src="js/sricpt.js"></script>
+</body>
+</html>
